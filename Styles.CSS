@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(242, 194, 242);
+}
+
+@media (max-width: 1000px) {
+    .body {
+        background-color: red;
+    }
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    background-color: beige;
+    border: 2px solid rgb(230, 199, 141);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+}
+
+h1:hover {
+    color: rgb(215, 80, 39);
+}
+
+form section {
+    background-color: rgb(240, 238, 142);
+    transition: 0.5s;
+}
+
+form section:hover {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: -5px 5px 15px 13px hsl(43, 100%, 85%);
+    border-width: 5px;
+    transition: 0.5s;
+    transform: translateY(-15px);
+}
+
+form,
+section,
+footer {
+    background-color: rgb(236, 226, 208);
+    border: 2px solid rgb(232, 204, 151);
+    padding: 10px;
+}
+
+label.Fname,
+label.Lname,
+form p {
+    font-weight: bold;
+    text-decoration: black underline wavy;
+}
+
+section button {
+    background-color: rgb(241, 114, 241);
+    color: yellow;
+    border-radius: 10px;
+    border-width: 4px;
+    border-left-color: rgb(95, 33, 129);
+    border-bottom-color: lightcoral;
+    border-top-color: lawngreen;
+    border-right-color: blue;
+    transition: 0.5s;
+    opacity: 0.7;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+section button:hover {
+    color: brown;
+    background-color: rgb(197, 255, 8);
+    padding: 8px;
+    opacity: 1;
+    border-left-color: blue;
+    border-bottom-color: lightyellow;
+    border-top-color: lightcoral;
+    border-right-color: rgb(193, 248, 85);
+    transition: 0.5s, padding 0.7s, box-shadow 0.9s, transform 0.7s;
+    box-shadow: 0px 5px 10px rgb(197, 255, 8);
+    transform: translateY(-5px);
+}
+
+select option:nth-of-type(even) {
+    background-color: rgb(174, 223, 26);
+}
+
+.Age {
+    background-color: rgb(251, 173, 167);
+    text-align: center;
+    padding: 20px;
+}
+
+.div1 input[type='radio']:checked {
+    accent-color: rgb(241, 17, 1);
+}
+
+footer {
+    background-color: rgb(192, 4, 255, 0.3);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer section {
+    border: 5px, solid, rgb(0, 89, 255);
+    margin-inline: 150px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+    position: sticky;
+    top: 600px;
+
+}
+
+footer p {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    background-color: steelblue;
+    border-radius: 30%;
+    margin: 10px;
+    transition: 2.0s;
+
+}
+
+.circle:hover {
+    border-radius: 50%;
+    background-color: brown;
+    transform: rotate(360deg);
+    background-image: url("https://soadu.app.box.com/index.php?rm=pic_storage_auth&pic=euks!pac3kv01!_ThfB7c4MHoDSxuKJ9xgowslnsOgBpo9bH08X1W2ZA0m4m9h0vemmySW2gpbdAfnb5pME9EUXeMBsJTndzfl1qP2o4IQ7mdxTrxtYr-881RBsl4b-AV6vD596AKXc4dOVz7PIYMTEnmDd-djh8ZQTvLJeRoLun_JPV_lJLnKRhMZkvnbx58pYHQzrgI0IshEYvm9yiXcCZw1q7X-kEUSHbRc9OwcYNuIhfmaknWfgSdmR_M5VfFl6NA2cDqJJMIk7msh_8JKtW2gFDro5k6dPg..");
+    background-size: contain;
+    transition: 2.0s;
+}
+
+div button:hover {
+    border-color: #d961fa;
+    color: rgb(243, 109, 255);
+    box-shadow: 0 0.5em 0.5em -0.4em #d961fa;
+    cursor: pointer;
+}
+
+span {
+    display: flex;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+input[type="email"],
+input[type='password'] {
+    border: black solid 1.9px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
+    flex-wrap: wrap;
+
+}
